@@ -1,0 +1,166 @@
+html, body, div, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;    
+    src: url("./UI/fonts/Ubuntu-Regular.ttf");
+}
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 500;    
+    src: url("./UI/fonts/Ubuntu-Medium.ttf");
+}
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;    
+    src: url("./UI/fonts/Ubuntu-Bold.ttf");
+}
+
+.clearfix {
+    clear: both;
+}
+
+.home {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.wrapper {
+    max-width: 1640px;
+    margin: 0 auto;
+}
+
+
+.header {
+    max-width: 1920px;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+.header__container {
+    max-width: 1640px;
+    margin: 0 auto;
+}
+.header__logo {
+    text-transform: uppercase;
+    font-size: 33px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+.header__nav {
+    float: right;
+    margin: 10px 0 10px 80px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.vidjet__container {
+    height: 60px;
+    font-size: 14px;
+    font-weight: 500;  
+}
+.vidjet {
+    min-width: 270px;
+    padding: 10px 15px 10px 0;
+    display: inline-block;
+}
+.vidjet > div {
+    display: inline-block;
+}
+
+.vidjet__currency_container {
+    width: 17px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+    
+    
+}
+.vidjet__currency{
+    position: relative;
+}
+
+.currency_popup {
+    box-sizing: border-box;
+    position: absolute;
+    left: 140px;
+    width: 320px;
+    padding: 30px 12px 30px 32px;
+    border-radius: 2px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.12);
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.15);
+    cursor: pointer;
+    z-index: 2;
+}
+.valute_rate{
+    padding-bottom: 13px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #d5d5d5;
+}
+.arrow {
+    margin-left: 7px;
+    display: inline-block;
+    
+}
+.upwards { 
+    color: #037e24;
+}
+.downwards {
+    color: red;
+}
+.valute_difference {
+    margin-left: 7px;
+    display: inline-block;
+}
+.vidjet__weather {
+    text-transform: uppercase;
+}
+.vidjet__weather > img {
+    width: 30px;
+}
+
+.vidjet__degree {
+    margin-left: 10px;
+}
+
+.vidjet__date {
+    float: right;
+    text-align: right;
+}
+.vidjet__date:first-letter {
+    text-transform: capitalize;
+}
+.news_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.news_box {
+    max-width: calc(25% - 22px);
+    max-height: 400px;
+    margin: 8px;
+    background-color: #EEEEEE;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.news_box__title {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.news_box__body > img {
+    width: 100%;
+    
+}
+
+.news_box__text {
+    font-weight: normal;
+    font-size: 14px;
+}
